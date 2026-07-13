@@ -19,5 +19,7 @@ public class GetAllUserService implements GetAllUserCase {
     @Override
     public List<User> findAll(){
         return userRepositoryPort.findAll().stream().map(ResponseMapper::toDomain).toList();
+        //Paginación
+        //lógica del filtor por página
     }
 }

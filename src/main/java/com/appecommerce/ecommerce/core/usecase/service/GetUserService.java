@@ -4,6 +4,7 @@ import com.appecommerce.ecommerce.core.entity.User;
 import com.appecommerce.ecommerce.core.usecase.dto.ResponseMapper;
 import com.appecommerce.ecommerce.core.usecase.port.in.GetUserCase;
 import com.appecommerce.ecommerce.core.usecase.port.out.UserRepositoryPort;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
